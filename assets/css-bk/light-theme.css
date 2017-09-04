@@ -1,0 +1,114 @@
+.custom-background {
+    background: #161616!important;
+}
+
+.page-content > .breadcrumb > li > a {
+    color: #ee8e00!important;
+}
+
+.panel {
+    -webkit-box-shadow: -1px 4px 4px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 4px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 4px -1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+.modal-header,
+.panel-heading {
+    background: #1f1f1f!important;
+    border-bottom: none!important;
+}
+
+.modal-body,
+.modal-footer,
+.panel-body {
+    border-top: none!important;
+    background: #303030!important;
+    color: white;
+}
+
+.btn-green {
+    color: white;
+    border: 1px solid #007469;
+    border-bottom: 3px solid ;
+    border-radius: 0;
+    background: #009688!important;
+}
+
+.btn-green:hover {
+    border: 1px solid #3d8b40;
+    background: #4caf50!important;
+}
+
+.btn-warning {
+    background: #ff9800!important;
+    border:none!important;
+}
+
+.btn-primary {
+    background: #0a69b5!important;
+    border: none!important;
+}
+
+.btn-danger {
+    background: #f44336!important;
+    border: none!important;
+}
+
+.form-control {
+    color: white;
+    border-radius: 0;
+    border-width: 2px!important;
+    background: none!important;
+}
+
+label {
+    color: white;
+    font-weight: bolder;
+}
+
+.form-control:focus {
+    transition: .2s;
+    font-weight: bolder!important;
+    font-size: 18px;
+    color: white;
+    border-color: #ee8e00!important;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+tr {
+    border: none!important;
+}
+
+tr:nth-child(even){
+    background: #414141!important;
+    border: none!important;
+}
+
+tr:hover {
+    transition: .4s;
+    background: #ee8e00!important;
+    color: white;
+}
+
+th {
+    padding: 10px;
+    border: 0 1px 0 1px solid red!important;
+    background: #161616!important;
+    color: white;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #525252;
+}
+
+table {
+    color: white;
+}
+
+tbody {
+    border-top: none!important;
+}
